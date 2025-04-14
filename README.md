@@ -25,4 +25,4 @@ Jeremy Howard affirms that there are myths circulating around deep learning, suc
 - The interface of those web applications can be built with **[Gradio](https://www.gradio.app/)**.
 
 ### Note
-I set my previous version of this repository, which contained chapter summaries and raw notes from the book and video, to private after carefully reviewing the fastbook terms. I respect the work that the fastai team is publishing for free, and I also want to ensure that I do not compromise my entire portfolio repository. This new public repository will only contain exercises from the fastai book (covered by the GPL v3 license) and my own experiments.
+I set my previous version of this repository, which contained my own chapter summaries and raw notes from the book and video, to private as a precaution after carefully reviewing the fastbook terms. I respect the work that the fastai team is publishing for free, and I also want to ensure that I do not compromise my entire portfolio repository. This new public repository will only contain my own experiments.
