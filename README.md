@@ -22,7 +22,10 @@ Jeremy Howard affirms that there are myths circulating around deep learning, suc
 ### What are Hugging Face and Gradio?
 - **[Hugging Face](https://huggingface.co)** is a platform where the ML community collaborates on models, datasets, and applications.
 - **[Hugging Face Spaces](https://huggingface.co/spaces)** is the section of the platform dedicated to creating and sharing ML apps (apps that use those models).
-- The interface of those web applications can be built with **[Gradio](https://www.gradio.app/)**.
+- The interface of those web applications can be buihttps://huggingface.co/spaces/martinmorando/001-is-it-a-treelt with **[Gradio](https://www.gradio.app/)**.
+
+### Contents
+- `001-is-it-a-tree`: tree detector. Deployed in [Hugging Face Spaces](https://huggingface.co/spaces/martinmorando/001-is-it-a-tree)
 
 ### Note
 I set my previous version of this repository, which contained my own chapter summaries and raw notes from the book and video, to private as a precaution after carefully reviewing the fastbook terms. I respect the work that the fastai team is publishing for free, and I also want to ensure that I do not compromise my entire portfolio repository. This new public repository will only contain my own experiments.
