@@ -19,5 +19,10 @@ Jeremy Howard affirms that there are myths circulating around deep learning, suc
 - Docs: https://docs.fast.ai/
 
 
+### What are Hugging Face and Gradio?
+- **[Hugging Face](https://huggingface.co)** is a platform where the ML community collaborates on models, datasets, and applications.
+- **[Hugging Face Spaces](https://huggingface.co/spaces)** is the section of the platform dedicated to creating and sharing ML apps (apps that use those models).
+- The interface of those web applications can be built with **[Gradio](https://www.gradio.app/)**.
+
 ### Note
 I set my previous version of this repository, which contained chapter summaries and raw notes from the book and video, to private after carefully reviewing the fastbook terms. I respect the work that the fastai team is publishing for free, and I also want to ensure that I do not compromise my entire portfolio repository. This new public repository will only contain exercises from the fastai book (covered by the GPL v3 license) and my own experiments.
