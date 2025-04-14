@@ -1,5 +1,6 @@
 '''
     Create an interface for the model using Gradio.
+    Deployed at https://huggingface.co/spaces/martinmorando/001-is-it-a-tree
 '''
 
 from fastai.vision.all import *
