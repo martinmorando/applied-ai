@@ -34,6 +34,7 @@ Total images:
 |resnet34             | RandomResizedCrop |  9   | 0.276923 |        -           |
 |resnet34             | squish            |  5   | 0.323077 |0.292308 @ epoch #3 |
 
+As error_rate is too big, I realize I need better data.
 
 
 ## 2nd search
@@ -48,6 +49,8 @@ Trying with new data. Using DDG: `russian text fragments`; `fragmentos texto esp
 |convnext_base_in22k  | squish            | 10   | 0.070423 |0.056338 @ epoch #8 |
 |convnext_base_in22k  | RandomResizedCrop | 10   | 0.126761 |0.126761 @ epoch #2 |
 |convnext_base_in22k  | squish            | 5    | 0.070423 |0.070423 @ epoch #3 |
+
+After trying all these, as ~7% error rate seems ok, I decided to test it with external data. I tried it with Wikipedia screenshots, and it seems to be working correctly for identifying Russian texts.
 
 
 ## 3rd search

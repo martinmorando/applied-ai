@@ -1,24 +1,25 @@
-'''
-The Russian screenshot has a probability of 99% of being Russian :)
-The Spanish screenshot has a probability of 36.9% of being Spanish :(
-'''
-
 from fastcore.all import *
 from fastai.vision.all import *
 
 # Load the model
-learn = load_learner("export.pkl")
+learn = load_learner("export2.pkl")
 
 # Use it on specified image 
-is_russian_text,_,probs = learn.predict(PILImage.create("../wikipedia-ru.png"))
+is_russian_text,_,probs_russian = learn.predict(PILImage.create("../wikipedia-ru.png"))
 print(learn.dls.vocab)
 print(f"This is a: {is_russian_text}.")
-print(f"Probability it's a Russian text: {probs[1]:.4f}")
-# Probability it's a Russian text: 0.9918
+print(f"Probability it's a Russian text: {probs_russian[1]:.4f}")
+'''
+['fragmentos texto español', 'russian text fragments']                   
+This is a: russian text fragments.
+Probability it's a Russian text: 0.8531
+'''
 
 
-is_spanish_text,_,probs = learn.predict(PILImage.create("../wikipedia-es.png"))
+is_spanish_text,_,probs_spanish = learn.predict(PILImage.create("../wikipedia-es.png"))
 print(f"This is a: {is_spanish_text}.")
-print(f"Probability it's a Spanish text: {probs[0]:.4f}")
-# This is a: russian text fragments. 
-# Probability it's a Spanish text: 0.3690
+print(f"Probability it's a Russian text: {probs_spanish[1]:.4f}")
+'''           
+This is a: fragmentos texto español.
+Probability it's a Russian text: 0.1078
+'''
