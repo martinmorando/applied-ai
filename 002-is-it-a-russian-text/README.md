@@ -50,7 +50,7 @@ Trying with new data. Using DDG: `russian text fragments`; `fragmentos texto esp
 |convnext_base_in22k  | RandomResizedCrop | 10   | 0.126761 |0.126761 @ epoch #2 |
 |convnext_base_in22k  | squish            | 5    | 0.070423 |0.070423 @ epoch #3 |
 
-After trying all these, as ~7% error rate seems ok, I decided to test it with external data. I tried it with Wikipedia screenshots, and it seems to be working correctly for identifying Russian texts. See `/2nd-search`.
+After trying all these, [as ~7% error rate seems ok](https://www.youtube.com/watch?v=hBBOjCiFcuo&t=816s), I decided to test it with external data. I tried it with Wikipedia screenshots, and it seems to be working correctly for identifying Russian texts. See `/2nd-search`.
 
 
 ## 3rd search
