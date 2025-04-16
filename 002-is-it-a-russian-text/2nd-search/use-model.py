@@ -23,3 +23,12 @@ print(f"Probability it's a Russian text: {probs_spanish[1]:.4f}")
 This is a: fragmentos texto español.
 Probability it's a Russian text: 0.1078
 '''
+
+
+is_portuguese_text,_,probs_portuguese = learn.predict(PILImage.create("../wikipedia-pt.png"))
+print(f"This is a: {is_portuguese_text}.")
+print(f"Probability it's a Russian text: {probs_portuguese[1]:.4f}")
+'''           
+This is a: fragmentos texto español.                                                             
+Probability it's a Russian text: 0.0122
+'''
