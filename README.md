@@ -25,7 +25,10 @@ Jeremy Howard affirms that there are myths circulating around deep learning, suc
 - The interface of those web applications can be build with **[Gradio](https://www.gradio.app/)**.
 
 ### Contents
+Each of my experiments are in a separate folder, starting with 3 digits for quick identification; some of them include various alternatives that I explored. The rest of the root folders contain experiments related to the software required to implement ML, such as Gradio.
+- `/gradio`: a folder containing only pure Gradio, as I familiarize myself with it.
 - `001-is-it-a-tree`: tree detector. Deployed in [Hugging Face Spaces](https://huggingface.co/spaces/martinmorando/001-is-it-a-tree)
+- `002-is-it-a-russian-text`: Russian text detector.
 
 ### Note
 I set my previous version of this repository, which contained my own chapter summaries and raw notes from the book and video, to private as a precaution after carefully reviewing the fastbook terms. I respect the work that the fastai team is publishing for free, and I also want to ensure that I do not compromise my entire portfolio repository. This new public repository will only contain my own experiments.
