@@ -14,5 +14,5 @@ def classify_image(img):
     pred,idx,probs = learn.predict(img)
     return dict(zip(categories, map(float,probs)))
 
-demo = gr.Interface(fn=classify_image, inputs="image", outputs="text", examples=examples)
+demo = gr.Interface(fn=classify_image, inputs="image", outputs="text", examples=examples, live=True)
 demo.launch()
