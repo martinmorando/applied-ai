@@ -1,6 +1,7 @@
 # Datasets
 001-is-it-a-tree/tree_or_not
 002-is-it-a-russian-text/russian_text_or_not
+*.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
