@@ -25,8 +25,7 @@ Jeremy Howard affirms that there are myths circulating around deep learning, suc
 - The interface of those web applications can be build with **[Gradio](https://www.gradio.app/)**.
 
 ### Contents
-Each of my experiments are in a separate folder, starting with 3 digits for quick identification; some of them include various alternatives that I explored. The rest of the root folders contain experiments related to the software required to implement ML, such as Gradio.
-- `gradio`: only pure Gradio, as I familiarize myself with it.
+Each of my experiments is in a separate folder, starting with 3 digits for quick identification; some of them include various alternatives that I explored.
 - `001-is-it-a-tree`: tree detector. Deployed in [Hugging Face Spaces](https://huggingface.co/spaces/martinmorando/001-is-it-a-tree)
 - `002-is-it-a-russian-text`: Russian text detector. Deployed in [Hugging Face Spaces](https://huggingface.co/spaces/martinmorando/002-is-it-a-russian-text).
 
