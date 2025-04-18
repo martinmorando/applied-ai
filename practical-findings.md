@@ -15,3 +15,6 @@ img = PILImage.create(img_data)
 ```
 Docs: https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html#file-upload
 
+
+
+- `gr.inputs`, as is in the book, [was deprecated in gradio 4.0](https://github.com/gradio-app/gradio/issues/6384#issuecomment-1810482077). [List of all components](https://www.gradio.app/docs/gradio/introduction).
