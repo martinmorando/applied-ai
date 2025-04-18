@@ -22,3 +22,5 @@ Is it related only to the data I provided? What if my data is biased?
 
 ## Image credits
 - `tree.jpg`: https://commons.wikimedia.org/wiki/File:Flooded_Albizia_Saman_(rain_tree)_in_the_Mekong.jpg. Basile Morin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons.
+
+- `airplane.jpg`: https://commons.wikimedia.org/wiki/File:Emirates_Airbus_A380-861_A6-EER_MUC_2015_01.jpg. Julian Herzog, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons.
