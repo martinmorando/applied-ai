@@ -3,9 +3,9 @@
 Is it possible to train a model to identify images containing Russian text using only a few pictures from the web?
 
 I did 3 searches on DuckDuckGo to find images:
-    - 1st: `русский текст`; `texto en español`. I used generative AI to create the Russian query. 
-    - 2nd: `russian text fragments`; `fragmentos texto español`. No manual deletion.
-    - 3rd: `russian text fragments`; `desks`. Even though the error rate is 0, this approach doesn't work because, given any picture of a text, it says it's Russian, even when it's not.
+- 1st: `русский текст`; `texto en español`. I used generative AI to create the Russian query. 
+- 2nd: `russian text fragments`; `fragmentos texto español`. No manual deletion.
+- 3rd: `russian text fragments`; `desks`. Even though the error rate is 0, this approach doesn't work because, given any picture of a text, it says it's Russian, even when it's not.
 
 
 ## 1st Search
@@ -64,9 +64,9 @@ I had to decrease the batch size from 32 (bs=32) to 8 (bs=8) to make the last on
 
 The error rate has lowered from ~7% to ~0.3% and ~0.7%. But... do they really work?
 
-Model A: ~7% error_rate; .pkl size 354.8 MB
-Model B: ~0.3% error_rate; .pkl size 354.8 MB
-Model C: ~0.7% error_rate; .pkl size 791.6 MB
+- Model A: ~7% error_rate; .pkl size 354.8 MB
+- Model B: ~0.3% error_rate; .pkl size 354.8 MB
+- Model C: ~0.7% error_rate; .pkl size 791.6 MB
 
 
 image             | Model A  | Model B | Model C | 
