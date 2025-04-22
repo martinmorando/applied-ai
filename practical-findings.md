@@ -2,12 +2,14 @@
 
 - The Jupyter widget to upload contents to a notebook as is in chapter 1 of the book is not working in Kaggle:
 ``` python
+import ipywidgets as widgets
 uploader = widgets.FileUpload()
 uploader
 img = PILImage.create(uploader.data[0])
 ```
 This works:
 ```python
+import ipywidgets as widgets
 uploader = widgets.FileUpload()
 uploader
 img_data = uploader.value[0]['content'].tobytes()
