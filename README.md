@@ -18,10 +18,10 @@ Jeremy Howard affirms that there are myths circulating around deep learning, suc
 - Docs: https://docs.fast.ai/
 
 ### Contents
-Each of my experiments is in a separate folder, starting with 3 digits for quick identification; some of them include various alternatives that I explored. Apps are deployed in Hugging Face Spaces.
+Each of my experiments is in a separate folder, starting with 3 digits for quick identification; some of them include various alternatives that I explored. The apps are deployed on Hugging Face Spaces, and you can find the model files (.pkl) either through the corresponding HF Space link or on Kaggle.
 - `001-is-it-a-tree`: tree detector. [Deployed](https://huggingface.co/spaces/martinmorando/001-is-it-a-tree).
 - `002-is-it-a-russian-text`: Russian text detector. [Deployed](https://huggingface.co/spaces/martinmorando/002-is-it-a-russian-text).
-- `003-light-bulb-type`: light bulb type detector.
+- `003-light-bulb-type`: light bulb type detector. [Kaggle](https://www.kaggle.com/code/martinmorando/003-light-bulb-type).
 
 ### Note
 I set my previous version of this repository, which contained my own chapter summaries and raw notes from the book and video, to private as a precaution after carefully reviewing the fastbook terms. I respect the work that the fastai team is publishing for free, and I also want to ensure that I do not compromise my entire portfolio repository. This new public repository will only contain my own experiments.
