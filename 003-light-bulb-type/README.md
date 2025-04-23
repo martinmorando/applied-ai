@@ -75,7 +75,7 @@ interp = Interpretation.from_learner(learn)
 interp.plot_top_losses(9, figsize=(15,10))
 ```
 
-Seing the output of the interpretation object, I realize that there's a problem with boxes of the light bulbs; in some cases they are very similar. At the same time, if someone has the box at hand, the light type will be written somewhere on the box. So, for practical purposes, I will focus on light bulbs, and remove all photos of their boxes.
+Seeing the output of the interpretation object, I realize that there's a problem with boxes of the light bulbs; in some cases they are very similar. At the same time, if someone has the box at hand, the light type will be written somewhere on the box. So, for practical purposes, I will focus on light bulbs, and remove all photos of their boxes.
 
 ## 3.2
 Number of images for each bulb type:
