@@ -1,7 +1,5 @@
 # Datasets
-001-is-it-a-tree/tree_or_not
-002-is-it-a-russian-text/russian_text_or_not
-003-light-bulb-type/bulb_type
+ds_*/
 
 # Pickle files
 *.pkl
