@@ -1,4 +1,4 @@
-# Practical Findings
+# Workarounds
 
 - The Jupyter widget to upload contents to a notebook as is in chapter 1 of the book is not working in Kaggle:
 ``` python
