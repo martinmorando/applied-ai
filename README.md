@@ -22,6 +22,7 @@ Each of my experiments is in a separate folder, starting with 3 digits for quick
 - `001-is-it-a-tree`: tree detector. [Deployed](https://huggingface.co/spaces/martinmorando/001-is-it-a-tree).
 - `002-is-it-a-russian-text`: Russian text detector. [Deployed](https://huggingface.co/spaces/martinmorando/002-is-it-a-russian-text).
 - `003-light-bulb-type`: light bulb type detector. [Kaggle](https://www.kaggle.com/code/martinmorando/003-light-bulb-type).
+- `004-bsas-city-landmarks`: Buenos Aires City landmarks detector. [Kaggle](https://www.kaggle.com/code/martinmorando/004-bsas-city-landmarks).
 
 ### Note
 I set my previous version of this repository, which contained my own chapter summaries and raw notes from the book and video, to private as a precaution after carefully reviewing the fastbook terms. I respect the work that the fastai team is publishing for free, and I also want to ensure that I do not compromise my entire portfolio repository. This new public repository will only contain my own experiments.
